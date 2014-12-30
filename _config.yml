@@ -52,13 +52,8 @@ baseurl: ""
 
 # markdown: redcarpet
 markdown: kramdown
-kramdown:
-  input:         GFM
-  auto_ids:      true
-  use_coderay:   false
-  hard_wrap:     false
-
 highlighter: pygments
+permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
